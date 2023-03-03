@@ -1,0 +1,16 @@
+{
+  "name": "tugas-mocha-chai",
+  "version": "1.0.0",
+  "description": "Tugas pengujian API Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha test/**/*.js"
+  },
+  "author": "MReihanS",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
