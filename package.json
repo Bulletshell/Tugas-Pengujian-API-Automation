@@ -4,13 +4,14 @@
   "description": "Tugas pengujian API Automation",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha test/**/*.js"
+    "test": "npx mocha test/**/*.js --timeout 10000 --reporter mochawesome --require mochawesome/register"
   },
   "author": "MReihanS",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
     "supertest": "^6.3.3"
   }
 }
